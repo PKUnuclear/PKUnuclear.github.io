@@ -1,0 +1,54 @@
+=================== hosts table ===================
+
+           ip            hostname         port
+    ------------------------------------------
+   |162.105.151.244      nodea           1800 |
+   |162.105.151.***      nodeb                |
+   `------------------------------------------`
+
+    ------------------------------------------
+   |162.105.151.247      node1           22   |
+   |162.105.151.***      node2                |
+   |162.105.151.***      node3                |
+   |162.105.151.***      node4                |
+   |162.105.151.***      node5                |
+   |162.105.151.***      node6                |
+   |162.105.151.***      node81               |
+   |162.105.151.***      node82               |
+   `------------------------------------------`
+
+    ------------------------------------------
+   |162.105.151.253      node91          22   |
+   `------------------------------------------`
+
+    ------------------------------------------
+   |162.105.151.254      node92          22   |
+   `------------------------------------------`
+
+    ------------------------------------------
+   |162.105.151.225      node93          22   |
+   `------------------------------------------`
+
+    ------------------------------------------
+   |162.105.151.243      jcnp0           2200 |
+   `------------------------------------------`
+
+================= hosts table ====================
+
+The hosts in the same box are in the same node-system
+and sharing the same storage.
+
+The *** means that the ip address of this host
+doesn't need to be public. As the users can change
+to different hosts in the same node-system by using
+ssh hostname.
+
+Not all the users have the accounts on node91, node92, 
+node93. If you need the accounts on these nodes please
+sending email to X.H.Wu to apply for the accounts. 
+(C.C. to J.Meng, S.Q.Zhang and P.W.Zhao)
+
+Any problems, please contact the servicer-manager by email: 
+wuxinhui@pku.edu.cn
+You will get the reply in 24 hours, and the problems
+will be taken care in 48 hours.
